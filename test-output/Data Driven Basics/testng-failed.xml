@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Basics]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.orangehrm.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Edit Employee Test(failed)">
+    <classes>
+      <class name="com.orangehrm.testcases.PIMEditEmployeeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="editEmployee" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orangehrm.testcases.PIMEditEmployeeTest -->
+    </classes>
+  </test> <!-- Edit Employee Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

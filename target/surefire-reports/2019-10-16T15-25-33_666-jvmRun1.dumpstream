@@ -1,0 +1,53 @@
+# Created at 2019-10-16T15:26:35.131
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-16T15:26:47.069
+Unexpected IOException: 8,1,com.orangehrm.testcases.PIMAddEmployeeTest,addEmployee(com.orangehrm.testcases.PIMAddEmployeeTest),null,Expected condition failed: waiting for presence of element located by: By.id: profile-pic (tried for 5 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for presence of element located by: By.id: profile-pic (tried for 5 second(s) with 500 milliseconds interval),PIMAddEmployeeTest.addEmployee:29 \00BB Timeout Expected condition failed: waiting...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: profile-pic (tried for 5 second(s) with 500 milliseconds interval)\000A\0009at com.orangehrm.testcases.PIMAddEmployeeTest.addEmployee(PIMAddEmployeeTest.java:29)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"css selector"\002C"selector":"#profile\005C-pic"}\000A  (Session info: chrome=77.0.3865.90)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SVINLP00359'\002C ip: '10.0.115.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.90\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005CSAIKUM~1.THA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:53915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: f37434f48f42f320589b2213870061b5\000A*** Element info: {Using=id\002C value=profile-pic}\000A\0009at com.orangehrm.testcases.PIMAddEmployeeTest.addEmployee(PIMAddEmployeeTest.java:29)\000A
+
+
+# Created at 2019-10-16T15:26:47.403
+Unexpected IOException with stream: editEmployee
+
+
+# Created at 2019-10-16T15:26:47.405
+Unexpected IOException with stream:  Row Count: 2
+
+
+# Created at 2019-10-16T15:26:47.407
+Unexpected IOException with stream:  Col Count: 4
+
+
+# Created at 2019-10-16T15:26:47.408
+Unexpected IOException with stream: Male
+
+
+# Created at 2019-10-16T15:26:47.409
+Unexpected IOException with stream: Single
+
+
+# Created at 2019-10-16T15:26:47.411
+Unexpected IOException with stream: Indian
+
+
+# Created at 2019-10-16T15:26:47.412
+Unexpected IOException with stream: 1990-05-04
+
+
+# Created at 2019-10-16T15:26:47.414
+Unexpected IOException: 5,1,com.orangehrm.testcases.PIMEditEmployeeTest,editEmployee(com.orangehrm.testcases.PIMEditEmployeeTest),com.orangehrm.testcases.PIMEditEmployeeTest,null,null
+
+
+# Created at 2019-10-16T15:26:57.436
+Unexpected IOException: 8,1,com.orangehrm.testcases.PIMEditEmployeeTest,editEmployee(com.orangehrm.testcases.PIMEditEmployeeTest),null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"#btnSave"}\000A  (Session info: chrome=77.0.3865.90)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SVINLP00359'\002C ip: '10.0.115.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.90\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005CSAIKUM~1.THA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:53915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: f37434f48f42f320589b2213870061b5\000A*** Element info: {Using=id\002C value=btnSave},null,no such element: Unable to locate element: {"method":"css selector"\002C"selector":"#btnSave"}\000A  (Session info: chrome=77.0.3865.90)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SVINLP00359'\002C ip: '10.0.115.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.90\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005CSAIKUM~1.THA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:53915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: f37434f48f42f320589b2213870061b5\000A*** Element info: {Using=id\002C value=btnSave},PIMEditEmployeeTest.editEmployee:18->TestBase.click:128 \00BB NoSuchElement no suc...,org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"css selector"\002C"selector":"#btnSave"}\000A  (Session info: chrome=77.0.3865.90)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SVINLP00359'\002C ip: '10.0.115.77'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_191'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 77.0.3865.90\002C chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0...\002C userDataDir: C:\005CUsers\005CSAIKUM~1.THA\005CAppDa...}\002C goog:chromeOptions: {debuggerAddress: localhost:53915}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: f37434f48f42f320589b2213870061b5\000A*** Element info: {Using=id\002C value=btnSave}\000A\0009at com.orangehrm.testcases.PIMEditEmployeeTest.editEmployee(PIMEditEmployeeTest.java:18)\000A
+
+
+# Created at 2019-10-16T15:26:59.014
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

@@ -1,0 +1,4 @@
+INFO    2019-10-16 15:25:35,555 [main] com.orangehrm.base.TestBase  - Config file loaded..!!
+INFO    2019-10-16 15:25:35,555 [main] com.orangehrm.base.TestBase  - OR file loaded..!!
+INFO    2019-10-16 15:25:38,512 [main] com.orangehrm.base.TestBase  - Chrome Browser launched
+INFO    2019-10-16 15:25:38,976 [main] com.orangehrm.base.TestBase  - Navigated to :http://localhost/orangehrm

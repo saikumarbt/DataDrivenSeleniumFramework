@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="com.orangehrm.listeners.CustomListeners"/>
+  </listeners>
+  <test name="LoginTest">
+    <classes>
+      <class name="com.orangehrm.testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Add Employee Test">
+    <classes>
+      <class name = "com.orangehrm.testcases.PIMAddEmployeeTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Edit Employee Test">
+    <classes>
+      <class name = "com.orangehrm.testcases.PIMEditEmployeeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

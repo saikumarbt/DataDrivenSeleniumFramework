@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="7052" started-at="2019-10-16T09:56:56Z" finished-at="2019-10-16T09:57:03Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="2079" started-at="2019-10-16T09:56:56Z" finished-at="2019-10-16T09:56:58Z">
+      <class name="com.orangehrm.testcases.LoginTest">
+        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.orangehrm.testcases.LoginTest@17497425]" name="loginAsAdmin" duration-ms="1655" started-at="2019-10-16T09:56:56Z" finished-at="2019-10-16T09:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+      </class> <!-- com.orangehrm.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="Add Employee Test" duration-ms="3190" started-at="2019-10-16T09:56:58Z" finished-at="2019-10-16T09:57:01Z">
+      <class name="com.orangehrm.testcases.PIMAddEmployeeTest">
+        <test-method status="PASS" signature="addEmployee(java.util.Hashtable)[pri:0, instance:com.orangehrm.testcases.PIMAddEmployeeTest@1151e434]" name="addEmployee" duration-ms="3121" started-at="2019-10-16T09:56:58Z" data-provider="dp" finished-at="2019-10-16T09:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lastName=Kumar, middleName=, firstName=Raghu, code=110.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+      </class> <!-- com.orangehrm.testcases.PIMAddEmployeeTest -->
+    </test> <!-- Add Employee Test -->
+    <test name="Edit Employee Test" duration-ms="1752" started-at="2019-10-16T09:57:01Z" finished-at="2019-10-16T09:57:03Z">
+      <class name="com.orangehrm.testcases.PIMEditEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.testcases.PIMEditEmployeeTest@2d710f1a]" name="setUp" is-config="true" duration-ms="4612" started-at="2019-10-16T09:56:51Z" finished-at="2019-10-16T09:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="editEmployee(java.util.Hashtable)[pri:0, instance:com.orangehrm.testcases.PIMEditEmployeeTest@2d710f1a]" name="editEmployee" duration-ms="1712" started-at="2019-10-16T09:57:01Z" data-provider="dp" finished-at="2019-10-16T09:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{maritalStatus=Single, gender=Male, nationality=Indian, dob=1990-05-04}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.PIMEditEmployeeTest@2d710f1a]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-10-16T09:57:03Z" finished-at="2019-10-16T09:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.PIMEditEmployeeTest -->
+    </test> <!-- Edit Employee Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
